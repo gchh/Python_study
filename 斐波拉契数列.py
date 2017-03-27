@@ -21,7 +21,7 @@ def fib(max):
     while b < max:
         yield b
         a, b = b, a + b
-    return 'done'
+    return
 
 n=int(input())
 sum=0
