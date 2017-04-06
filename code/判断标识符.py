@@ -1,23 +1,24 @@
+# -*- coding: cp936 -*-
 '''
-题目内容：
-依次判断一系列给定的字符串是否为合法的 Python 标识符。
+��Ŀ���ݣ�
+�����ж�һϵ�и������ַ����Ƿ�Ϊ�Ϸ��� Python ��ʶ����
 
-输入格式:
-一系列字符串，每个字符串占一行。
+�����ʽ:
+һϵ���ַ�����ÿ���ַ���ռһ�С�
 
-输出格式：
-判断每行字符串是否为合法的 Python 标示符，如果合法则输出 True，否则输出 False。
+�����ʽ��
+�ж�ÿ���ַ����Ƿ�Ϊ�Ϸ��� Python ��ʾ��������Ϸ������ True��������� False��
 
-输入样例：
+����������
 abc
 _def
 21gh
 
-输出样例：
+���������
 True
 True
 False
-时间限制：500ms内存限制：32000kb
+ʱ�����ƣ�500ms�ڴ����ƣ�32000kb
 '''
 params=[]
 while True:
