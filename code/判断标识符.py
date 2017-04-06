@@ -32,7 +32,7 @@ for s in params:
 import re
  
 def isIentifier (s):
-    if re.match('[a-zA-Z_][a-zA-Z0-9_]', s):
+    if re.match('[a-zA-Z_][a-zA-Z0-9_]*', s):
         return True
     else:
         return False
