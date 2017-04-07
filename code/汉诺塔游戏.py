@@ -1,3 +1,5 @@
+#! python2
+# -*- coding: utf-8 -*-
 '''
 题目内容：
 如在汉诺塔游戏中，我们希望将塔A上的n个盘子，通过塔B移动到塔C，则对于任意输入的n，给出移动的步骤。
@@ -27,8 +29,12 @@ def move(n,a,b,c):
     move(n-1,b,a,c)     # 最后将原来移动到b的盘子移动到c
 
 if __name__=='__main__':
-    n = int(input())
-    move(n,'A','B','C')
+    while True:
+        n = int(input())
+        if n:#isinstance(n,int):
+            move(n,'A','B','C')
+        else:
+            break
 '''
 #Python2.7 print和3.x不同
 def hanoi(n, A, B, C):
