@@ -32,7 +32,6 @@
 
 时间限制：500ms内存限制：32000kb
 '''
-'''
 def pascalLine(num):
     l = [1]
     if num == 0:
@@ -51,24 +50,4 @@ if __name__ == '__main__':
         for j in l:
             s = s + str(j) + ' '
         print(' ' * (n - i - 1) + s[:-1])
-'''
-def pascalLine(num):
-    l=[]
-    if num==0:
-        l=[1]
-    elif num==1:
-        l+=[1,1]
-    else:
-        for i in range(len(l[num-1])-1):
-            l1+=[l[i]+l[i+1]]
-        l=[1]+l1+[1]
-    l2=l
-    return l
-if __name__ == '__main__':
-    n = int(input())
-    for i in range(0, n):
-        l = pascalLine(i)
-        s = ''
-        for j in l:
-            s = s + str(j) + ' '
-        print(' ' * (n - i - 1) + s[:-1])
+
